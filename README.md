@@ -47,3 +47,13 @@ JSON specficiation for defining nodes and relationships for import/export. This 
 - `start` - The integer index in the `nodes` array of the start node
 - `end` - The integer index in the `nodes` array of the end node
 - `type` - The relationship type
+
+## Implementations
+
+### Python
+
+```
+./neo4j.py [-p] /path/to/file.json [http://localhost:7474/db/data/]
+```
+
+If `-p` is passed, the statements will be printed to stdout rather than be loaded into Neo4j. An alternate endpoint can be supplied as the second argument if not using the default.
