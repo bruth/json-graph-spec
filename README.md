@@ -58,6 +58,7 @@ An array of objects with nodes and relationships interleaved.
     "end": 1,
     "type": "CONTAINS"
 }]
+```
 
 ### General Options
 
